@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+}
+::placeholder {
+color: transparent;
+}
+input{
+    box-shadow: grey;
+}
+.box {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.get_values {
+    border: 2px solid white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 5%;
+}
+.get_values i {
+    font-size: 25px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.get_values i:hover {
+    color: gray;
+}
+.get_values h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+.get_values p {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.get_values p span {
+    font-size: 22px; 
+    margin-right: 20px;
+}
+.get_values p .phone {
+    margin-right: 62px;
+}
+.get_values p .email {
+    margin-right: 70px;
+}
+.get_values p .zip_code {
+    margin-right: 36px;
+}
